@@ -2,7 +2,6 @@ Merhabalar Sizlere sitenizin her hangi bir yerinde oyun içi konusmaları site �
  5dk arayla kayıt aldına alacak kullanacak olan arkadaşlar ana dizine cache klasörü oluşturup cron eklemelisiniz.
 son 10 konuşmayı gösterecek krallık bayrak ve ch detaylarını kendinize göre düzenliyebilirsiniz 
 
-
  <?php
 $filenamesohbet = "anasayfa-sohbet.html";
 $cachefilesohbet = "cache/".$filenamesohbet;
