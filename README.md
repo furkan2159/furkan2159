@@ -1,7 +1,3 @@
-Merhabalar Sizlere sitenizin her hangi bir yerinde oyun içi konusmaları site üzerinden gösterebilirsiniz  bunun anlık sorgu db oldukca yoracağından cache sistemiyle hazırladım
- 5dk arayla kayıt aldına alacak kullanacak olan arkadaşlar ana dizine cache klasörü oluşturup cron eklemelisiniz.
-son 10 konuşmayı gösterecek krallık bayrak ve ch detaylarını kendinize göre düzenliyebilirsiniz 
-
  <?php
 $filenamesohbet = "anasayfa-sohbet.html";
 $cachefilesohbet = "cache/".$filenamesohbet;
@@ -65,4 +61,4 @@ readfile($cachefilesohbet);
 }
 ?>
 
-yapamayanlar discord adresimden iletişime geçebilirler .
+yapamayanlar discord adresimden iletişime geçebilirler
